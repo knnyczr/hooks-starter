@@ -8,6 +8,7 @@ import { useTitleInput } from './hooks/useTitleInput';
 const App = () => {
   const [name, setName]  = useTitleInput('');
   const ref = useRef();
+  
   const [dishes, setDishes] = useState([]);
 
   const fetchDishes = async () => {
